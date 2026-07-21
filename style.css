@@ -1,4 +1,4 @@
-    /* Efecto de fondo respirando */
+/* Efecto de fondo respirando */
     body {
       margin: 0;
       height: 100vh;
@@ -9,18 +9,20 @@
     }
 
    @keyframes respirar {
-  0%   { background-color: #FFFFFF; }
-  25%  { background-color: #F0F0F0; }
-  50%  { background-color: #E0E0E0; }
-  75%  { background-color: #F0F0F0; }
-  100% { background-color: #FFFFFF; }
+0%   { background-color: #1a0d00; }
+25%  { background-color: #4d1f00; }
+50%  { background-color: #802b00; }
+75%  { background-color: #4d1f00; }
+100% { background-color: #1a0d00; }
+
+/* Estilo para slider fotos */
 }.slider {
-  width: 85%;      
+  width: 90%;      
   margin: 0 auto;    
 }
 
 .slider img {
-  width: 85%;  
+  width: 90%;  
   height: auto; 
 }
 
@@ -33,7 +35,7 @@
 }
 
 .thumbnails img {
-  width: 6%;      
+  width: 7%;      
   height: auto;     
   object-fit: cover; 
   cursor: pointer;   
@@ -42,19 +44,20 @@
 }
 
 .thumbnails img.active {
-  border: 2px solid #111;
+  border: 2px solid #ffffff;
 }
 body {
-padding: 35px 30%;}
+padding: 2% 30%;}
   
 @media (max-width: 700px){
 body {
-padding: 10px 10%;}
+padding: 2% 10%;}
 }
 
+/* Configuración para estilo visual de enlaces */
 .l {
       color: inherit;          /* mismo color que el texto */
       text-decoration: none;   /* sin subrayado */
-      cursor: pointer;         /* NO aparece la manito */
+      cursor: pointer;         /* sin la manito */
       pointer-events: auto;    /* mantiene el click activo */
     }
