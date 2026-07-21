@@ -1,4 +1,4 @@
-    /* Efecto de fondo respirando */
+/* Efecto de fondo respirando */
     body {
       margin: 0;
       height: 100vh;
@@ -14,6 +14,8 @@
 50%  { background-color: #802b00; }
 75%  { background-color: #4d1f00; }
 100% { background-color: #1a0d00; }
+
+/* Estilo para slider fotos */
 }.slider {
   width: 90%;      
   margin: 0 auto;    
@@ -52,9 +54,10 @@ body {
 padding: 2% 10%;}
 }
 
+/* Configuración para estilo visual de enlaces */
 .l {
       color: inherit;          /* mismo color que el texto */
       text-decoration: none;   /* sin subrayado */
-      cursor: pointer;         /* NO aparece la manito */
+      cursor: pointer;         /* sin la manito */
       pointer-events: auto;    /* mantiene el click activo */
     }

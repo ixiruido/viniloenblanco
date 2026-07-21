@@ -2,16 +2,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta name="description" content="Links oficiales de la banda Vinilo en blanco">
+  <meta name="description" content="Links oficiales de Vinilo en Blanco. Banda argentina de indierock. Música, novedades y contacto.">
   <link rel="icon" type="image/png" href="logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vinilo en blanco - Links</title>
-  <meta name="description" content="Links oficiales de Vinilo en Blanco. Banda argentina de indierock. Música, novedades y contacto.">
-<meta name="keywords" content="vinilo en blanco, links, musica, vinilo, blanco, banda, artista, música, rock, pop, canciones, oficial, argentina, indierock">
-<meta name="author" content="Vinilo en Blanco">
+  <meta name="keywords" content="vinilo en blanco, links, musica, vinilo, blanco, banda, artista, música, rock, pop, canciones, oficial, argentina, indierock">
+  <meta name="author" content="Vinilo en Blanco">
 <link rel="stylesheet" href="style.css">
-  <style>
+
+  <style> <!-- Estilo y funciones de botones -->
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
@@ -124,7 +124,6 @@
         </div>
       </td>
     </tr>
-    <!-- Repite el mismo patrón para las demás plataformas -->
     <tr>
       <td colspan="4">
         <div class="plataforma">
@@ -209,17 +208,21 @@
     });
   }
 </script>
+
+
 <h2 style="text-align: left; margin-top:12%"><a href="/bio.html" class="l">PRENSA</a></h2>
 <h2 style="text-align: center"><a href="/index.html" class="l">VOLVER AL INICIO</a></h2>
 
-<div style="display: flex; justify-content: center; margin-top: 15%">
-                <div style="max-width: 400px; width: 100%;">
-             <script async src="https://eocampaign1.com/form/bdd4f24c-9fd3-11f0-825b-116b0d354bfc.js" data-form="bdd4f24c-9fd3-11f0-825b-116b0d354bfc"></script> </div> </div>
-<div id="footer-placeholder"></div>
+<!-- Formulario Newsletter -->
+<div style="display: flex; justify-content: center; margin-top: 15%"> 
+<div style="max-width: 400px; width: 100%;">
+<script async src="https://eocampaign1.com/form/bdd4f24c-9fd3-11f0-825b-116b0d354bfc.js" data-form="bdd4f24c-9fd3-11f0-825b-116b0d354bfc"></script> </div> </div>
+
+<div id="pie-pagina" style="text-align: center"></div> 
 <script>
-fetch('bottom.html')
+fetch('pie-pagina.html')
   .then(res => res.text())
-  .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  .then(data => document.getElementById('pie-pagina').innerHTML = data);
 </script>
 
 </body>
