@@ -15,9 +15,10 @@
 50%  { background-color: #802b00; }
 75%  { background-color: #4d1f00; }
 100% { background-color: #1a0d00; }
+}
 
 /* Estilo para slider fotos */
-}.slider {
+.slider {
   width: 90%;      
   margin: 0 auto;    
 }
