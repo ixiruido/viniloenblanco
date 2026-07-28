@@ -6,22 +6,22 @@
       font-family: Arial, sans-serif;
       text-align: center; padding: 2% 30%;}
       @media (max-width: 700px){body {padding: 2% 10%;}
-/* Botones Generales */    
+    
   .botones button {padding: 5px 5px;
       cursor: pointer; border: none;
-      border-radius: 5px; background-color: #222;
+      border-radius: 5px; background-color: #f0600d;
       color: white; font-size: 15px;
       transition: background-color 0.3s;
       margin-right: 5px; margin-bottom: 5px;}  
   .botones button:hover {
       background-color: #555;}}
-/* Efecto de fondo respirando */      
+      
    @keyframes respirar {
-0%   { background-color: #1a0d00; }
-25%  { background-color: #4d1f00; }
-50%  { background-color: #802b00; }
-75%  { background-color: #4d1f00; }
-100% { background-color: #1a0d00; }}
+0%   { background-color: #bd640c; }
+25%  { background-color: #974711; }
+50%  { background-color: #d35313; }
+75%  { background-color: #974711; }
+100% { background-color: #bd640c; }}
 
 /* Estilo para slider fotos */
 .slider {width: 90%; margin: 0 auto;}
