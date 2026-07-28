@@ -55,7 +55,7 @@
       margin-bottom: 2px;}
     .plataforma .botones button {padding: 5px 5px;
       cursor: pointer; border: none;
-      border-radius: 5px; background-color: #222;
+      border-radius: 5px; background-color: #f0600d;
       color: white; font-size: 15px;
       transition: background-color 0.3s;
       margin-right: 5px; margin-bottom: 5px;}
